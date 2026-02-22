@@ -1,0 +1,840 @@
+[
+  {
+    "nombreGenerico": "AMIODARONA",
+    "nombreComercial": "Trangorex®",
+    "ph": "3-5",
+    "osmolaridad": "304 mOsm/l",
+    "reconstituirDiluir": "Siempre diluida, en Dx 5%",
+    "protocoloHSO": "D.C: 150-300 mg + 50 ml Dx 5%. P.C: 300 mg (6 ml) + 44 ml Dx 5% / 8 o 12 h segun prescripción (en Jeringa de 50ml)",
+    "tiempoInfusion": "10 minutos - 1 h PC-BI / 8-12 h",
+    "viaAdministracion": "Preferible por CVC",
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": "8-12 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "BICARBONATO SÓDICO 1M",
+    "nombreComercial": null,
+    "ph": "7-8,5",
+    "osmolaridad": "2000 mOsm/l",
+    "reconstituirDiluir": "Solución precargada",
+    "protocoloHSO": "\"X\" ml (puro) según criterio facultativo",
+    "tiempoInfusion": "10-20 min. PC-BI / bolo rápido en PCR",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "CALCIO CLORURO",
+    "nombreComercial": "Cloruro de Calcio",
+    "ph": "5-7",
+    "osmolaridad": "660 mOsm/l",
+    "reconstituirDiluir": "Siempre diluido, en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "1-2 ampollas + 50 ml SSF 0,9%/Dx 5%",
+    "tiempoInfusion": "10-15 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "CALCIO GLUCONATO",
+    "nombreComercial": "Suplecal®",
+    "ph": "5,5-7,5",
+    "osmolaridad": "660 mOsm/l",
+    "reconstituirDiluir": "Siempre diluido, en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "1-2 ampollas + 50 ml SSF 0,9%/Dx 5%",
+    "tiempoInfusion": "5-10 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "CISATRACURIO",
+    "nombreComercial": "Nimbex®",
+    "ph": "3-3,8",
+    "osmolaridad": "119 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "20 mg (puro: 1 amp de 10 ml). P.C: 50 mg (2,5 amp de 10 ml)+ 25 ml SSF 0,9% (1 mg/ml)(en Jeringa de 50ml)",
+    "tiempoInfusion": "Bolo directo, rápido / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "DEXAMETASONA",
+    "nombreComercial": null,
+    "ph": "7-8,5",
+    "osmolaridad": "160-230 mOsm/Kg",
+    "reconstituirDiluir": "Preferible diluido en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "\"X\" mg + 50 ml SSF 0,9% (si despierto) o bolo puro (si sedado)",
+    "tiempoInfusion": "Bolo",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "DEXKETOPROFENO",
+    "nombreComercial": "Enantyum®",
+    "ph": "7-8",
+    "osmolaridad": "328 mOsm/l",
+    "reconstituirDiluir": "Siempre diluido, en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "50 mg + 50-100 ml SSF 0,9%",
+    "tiempoInfusion": "30 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": true,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "DEXMEDETOMIDINA",
+    "nombreComercial": "Dexdor®",
+    "ph": "4,5-7",
+    "osmolaridad": "279 mOsm/l",
+    "reconstituirDiluir": "Siempre diluido, en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: Solución preparada 400 µg/100 ml o 1000 µg + 240 ml SSF 0,9% (ambas=4 µg/ml)",
+    "tiempoInfusion": "Nunca bolo ni dosis de carga. PC-BI (ajuste dosis/h)",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "48 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "DOBUTAMINA",
+    "nombreComercial": null,
+    "ph": "3,8-3,9",
+    "osmolaridad": "269 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: 200 mg (16 ml del vial) + 34 ml Dx 5% (4 mg/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "DOPAMINA",
+    "nombreComercial": null,
+    "ph": "4,3-4,8",
+    "osmolaridad": "318 mOsm/l",
+    "reconstituirDiluir": "Siempre diluida, en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: 200 mg (1 amp de 5 ml)+ 45 ml Dx 5% (4 mg/1 ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "DROPERIDOL",
+    "nombreComercial": "Xomolix®",
+    "ph": "3-3,8",
+    "osmolaridad": "300 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "2,5 mg (1 vial)+ 4 ml SSF 0,9% (500 µg/m)(en Jeringa de 5 ml)",
+    "tiempoInfusion": "Bolo de la dilución (2 ml)",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "EPINEFRINA",
+    "nombreComercial": "Adrenalina®",
+    "ph": "3-3,4",
+    "osmolaridad": "300 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "Jeringa precargada 1 mg/10 ml (100 µg/1 ml). En P.C.R: bolo. P.C: 10 mg (=10 amp)+ 40 ml Dx 5% (200 µg/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo en P.C.R / PC-BI",
+    "viaAdministracion": "Preferible por CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "ESMOLOL",
+    "nombreComercial": "Brevibloc®",
+    "ph": "4,5-5,5",
+    "osmolaridad": "300 mOsm/l",
+    "reconstituirDiluir": "Diluir vial en SSF 0,9% o Dx 5%. Solución precargada",
+    "protocoloHSO": "P.C: Solución precargada 2,5 g/250 ml (10 mg/1 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": "Preferible por CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "ETOMIDATO",
+    "nombreComercial": "Hypnomidate®",
+    "ph": "6,0‑8,5",
+    "osmolaridad": null,
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "20 mg (vial de 10 ml) + 10 ml SSF 0,9% (1 mg/ml)(en Jeringa de 20 ml).PRECAUCIÓN: presentación Etomidato-Lipuro (emulsión lipídica color BLANCO).",
+    "tiempoInfusion": "Bolo",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": "15-25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "FENTANILO",
+    "nombreComercial": "Fentanest®",
+    "ph": "4-6,5",
+    "osmolaridad": "281 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "150 µg (puro/1 amp) (en Jeringa de 10 ml). P.C: 150 µg (10 amp)+ 20 ml SSF 0,9% (30 µg/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo directo / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "FUROSEMIDA",
+    "nombreComercial": "Seguril®",
+    "ph": "8-9,3",
+    "osmolaridad": null,
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "\"X\" mg puro según criterio médico. P.C: X mg (puro) + hasta 50 ml SSF 0,9% o 250-1000 mg puro (en Jeringa 50 ml)",
+    "tiempoInfusion": "Bolo directo / PC-BI / Hasta 24 h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "HALOPERIDOL",
+    "nombreComercial": null,
+    "ph": "3,8-3,9",
+    "osmolaridad": "303 mOsm/l",
+    "reconstituirDiluir": "Siempre diluido, preferible en Dx 5%",
+    "protocoloHSO": "5 mg (1 amp / 1 ml)+ 50 ml Dx 5%",
+    "tiempoInfusion": "10 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "HEPARINA SÓDICA",
+    "nombreComercial": null,
+    "ph": "5,6-6,5",
+    "osmolaridad": "278 mOsm/l",
+    "reconstituirDiluir": "Preferible en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: 25.000 UI + 25 ml SSF 0,9% (1000 UI/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "HIDROCORTISONA",
+    "nombreComercial": "Actocortina®",
+    "ph": "7,4-7,6",
+    "osmolaridad": null,
+    "reconstituirDiluir": "Reconstituir con API. Preferible SSF 0,9%",
+    "protocoloHSO": "\"X\" mg + 50 ml SSF 0,9%",
+    "tiempoInfusion": "5 minutos",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "4 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "HIERRO CARBOXIMALTOSA FÉRRICA",
+    "nombreComercial": "Ferinject®",
+    "ph": null,
+    "osmolaridad": null,
+    "reconstituirDiluir": "Siempre diluido, en SSF 0,9%",
+    "protocoloHSO": "500 mg (1 vial) 1000 mg (2 viales)+ 250 ml SSF 0,9%",
+    "tiempoInfusion": "30 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "72 h",
+      "temperatura": "< 30°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "INSULINA REGULAR",
+    "nombreComercial": "Actrapid®",
+    "ph": "4,9-5,8",
+    "osmolaridad": "282 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: 50 UI hasta 50 ml SSF 0,9% (1 UI/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "ISOPROTERENOL",
+    "nombreComercial": "Aleudrina®",
+    "ph": "3,6-4,4",
+    "osmolaridad": "302 mOsm/l",
+    "reconstituirDiluir": "Dx 5%",
+    "protocoloHSO": "P.C: 1 mg (5 ampollas de 1 ml) + 45 ml Dx 5% (100 µg/1 ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "LABETALOL",
+    "nombreComercial": "Trandate®",
+    "ph": "3,7-3,9",
+    "osmolaridad": "178 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "20 mg puro (4 ml del vial de 20 ml quedando 5 mg/1 ml) a criterio médico o P.C: 150 mg puro (1,5 amp) 5 mg/ 1 ml (en Jeringa de 50 ml) (300 mg/24 h)",
+    "tiempoInfusion": "Bolo directo / PC-BI / 12 h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": "12 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "MAGNESIO SULFATO",
+    "nombreComercial": "Sulmetin simple",
+    "ph": "5,5-5,7",
+    "osmolaridad": "505 mOsm/l",
+    "reconstituirDiluir": "Dx 5%",
+    "protocoloHSO": "D.C: 3 g en bolo (hasta 6 g) + 100 ml Dx 5% (a criterio médicoo) P.C: 6 g (4 ampollas de 1.5 g/10 ml) + 10 ml. Dx 5% (en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo, 5 min. PC-BI/ 24 h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "METAMIZOL",
+    "nombreComercial": "Nolotil®",
+    "ph": "6-8",
+    "osmolaridad": null,
+    "reconstituirDiluir": "SIEMPRE diluido en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "2 g (1amp/5 ml) + 45 ml SSF 0,9% o Dx 5%",
+    "tiempoInfusion": "10 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "MIDAZOLAM",
+    "nombreComercial": "Dormicum®",
+    "ph": "2,9-3,7",
+    "osmolaridad": "261 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "15 mg (1 amp de 3 ml) + 12 ml SSF 0,9% (1 mg/1 ml)(en Jeringa de 20 ml). P.C: 150 mg (10 amp de 15mg/3ml) + 20 ml SSF 0,9% (3 mg/1 ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo directo (1 mg/1 ml)/ PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "MORFINA",
+    "nombreComercial": "Cloruro Morfico",
+    "ph": "5,5",
+    "osmolaridad": "279 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "10 mg (1 amp de 1 ml) + 9 ml SSF 0,9% (1 mg/ml)(en Jeringa de 10 ml). P.C: 50 mg (5 amp de 1 ml)+ 45 ml SSF 0,9% (1 mg/1 ml) a criterio médico",
+    "tiempoInfusion": "Según pauta: Bolo / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "NALOXONA",
+    "nombreComercial": "Narcan®",
+    "ph": "3,1-4,5",
+    "osmolaridad": null,
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "0,4 mg (1 amp de 1 ml) + 9 ml SSF 0,9% (0,04 mg/ml)(en Jeringa de 10 ml). P.C: 2 mg (5 amp) + 95 ml Dx 5% (20 µg/1 ml)",
+    "tiempoInfusion": "Bolo (X ml de la dilución / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "NITROGLICERINA",
+    "nombreComercial": "Solinitrina®",
+    "ph": "4,2-5,4",
+    "osmolaridad": "2125 mOsm/l",
+    "reconstituirDiluir": "SIEMPRE diluido en SSF 0,9% o Dx 5%",
+    "protocoloHSO": "1 mg + 9 ml Dx 5% (100 μg/ ml) (en Jeringa de 10 ml) a criterio médico. P.C: 5 mg (1 amp/5 ml)+ 45 ml Dx 5% (100 μg/1 ml) (en Jeringa de 50 ml).",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "NORADRENALINA",
+    "nombreGenerico2": "NOREPINEFRINA",
+    "nombreComercial": "Levophed®",
+    "ph": "3,6",
+    "osmolaridad": "294 mOsm/l",
+    "reconstituirDiluir": "Siempre diluida, en Dx 5%",
+    "protocoloHSO": "P.C: 5 mg (1 ampolla de 10 ml) + 40 ml Dx 5% (100 μg/1 ml) (en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "ONDANSETRÓN",
+    "nombreComercial": "Yatrox®",
+    "ph": "4,2",
+    "osmolaridad": "281 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "4 mg (2 ml) puro. En REA no precisa dilución",
+    "tiempoInfusion": "Bolo",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "OXITOCINA",
+    "nombreComercial": null,
+    "ph": "3,5-4,5",
+    "osmolaridad": null,
+    "reconstituirDiluir": "Preferible en SSF 0,9%",
+    "protocoloHSO": "Preparación en Farmacia. Norma NYOSH",
+    "tiempoInfusion": "Preferible PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "PANTOPRAZOL",
+    "nombreComercial": null,
+    "ph": "8,5-10",
+    "osmolaridad": null,
+    "reconstituirDiluir": "1º Reconstituir con 10 ml SSF 0,9%, luego SSF 0,9% o Dx 5%",
+    "protocoloHSO": "40 mg (1 vial)+ 40 ml SSF 0,9 %. P.C: 120 mg (3 viales / 30 ml)+ 20 ml SSF 0,9% (2,4 mg/ml)/ 12 h (Profilaxis HDA)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "2-15 min. PC-BI/12h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "12 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "PARACETAMOL",
+    "nombreComercial": "Perfalgan®",
+    "ph": "6,4",
+    "osmolaridad": "286 mOsm/l",
+    "reconstituirDiluir": "Solución precargada lista para uso",
+    "protocoloHSO": "10 mg / 1ml",
+    "tiempoInfusion": "15 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "48 h",
+      "temperatura": "< 30°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "POTASIO CLORURO",
+    "nombreComercial": "ClK 2M",
+    "ph": "5,5",
+    "osmolaridad": "639 mOsm/l",
+    "reconstituirDiluir": "SIEMPRE DILUIDO - NO BOLO - en SSF 0,9% O Dx 5%",
+    "protocoloHSO": "X mEq + 50 ml (min.) SSF 0,9%. NUNCA MÁS DE 40 mEq POR DOSIS",
+    "tiempoInfusion": "1-2 h PC/BI",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "PROPOFOL",
+    "nombreComercial": "Diprivan®",
+    "ph": "6-8,5",
+    "osmolaridad": null,
+    "reconstituirDiluir": "Emulsión precargada lista para su uso",
+    "protocoloHSO": "X ml 1% (10 mg/ 1 ml)(en Jeringa de 20 ml). P.C: 1 Vial 50 ml al 2% (en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo directo / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "12 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "REMIFENTANILO",
+    "nombreComercial": "Ultiva®",
+    "ph": "3,4",
+    "osmolaridad": "287 mOsm/l",
+    "reconstituirDiluir": "1º Reconstituir SSF 0,9% (1 mg/1 ml)y luego disolver con SSF 0,9% o Dx 5%",
+    "protocoloHSO": "P.C: 5 mg + 45 ml SSF 0,9% (100 µg/ml)(en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI (ajuste de dosis/5 min.)",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "ROCURONIO",
+    "nombreComercial": "Esmeron®",
+    "ph": "3,9",
+    "osmolaridad": "285 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "1-2 viales (10 mg/ 1 ml) (en Jeringa de 5 ml).P.C: 10 viales (en Jeringa de 50 ml)",
+    "tiempoInfusion": "Bolo directo / PC-BI-rítmo 2ml/h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "72 h",
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "SMOFlipid",
+    "nombreComercial": null,
+    "ph": "8",
+    "osmolaridad": "1026 mOsm/l",
+    "reconstituirDiluir": "Emusióm precargada lista para su uso",
+    "protocoloHSO": "Según criterio facultativo. Indicado como antidoto por toxicidad de anestesicos locales",
+    "tiempoInfusion": "Bolo, 1,5 ml/kg/1 min. PC-BI: 0,25 ml/kg/1 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "SOMATOSTATINA",
+    "nombreComercial": null,
+    "ph": "PH ↓",
+    "osmolaridad": null,
+    "reconstituirDiluir": "1º Reconstituir con el disolvente que acompaña al vial y luego disolver en SSF 0,9%",
+    "protocoloHSO": "P.C: 3 mg + 49 ml SSF 0,9% (60 μg /1 ml)/12 h (en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI/12h",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "12 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": true,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "SUCCINILCOLINA",
+    "nombreComercial": "Anectine®",
+    "ph": "3-4,2",
+    "osmolaridad": null,
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "1 vial (100 mg/2 ml)(en Jerinja de 10 ml o precargado)",
+    "tiempoInfusion": "Bolo directo",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": false,
+      "estabilidad": null,
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "TERLIPRESINA",
+    "nombreComercial": "Glypressin®",
+    "ph": "4-5",
+    "osmolaridad": "330 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "P.C: 2-4 mg + 50 ml SSF 0,9%/ (opción en REA) (en Jeringa de 50 ml)",
+    "tiempoInfusion": "PC-BI/24h",
+    "viaAdministracion": "Preferible por CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "TIOPENTAL SÓDICO",
+    "nombreComercial": "Pentothal®",
+    "ph": "10,7-11,1",
+    "osmolaridad": "409 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9% o Dx 5%",
+    "protocoloHSO": "0,5 g (1 vial)+ 20 ml SSF 0,9% (25 mg/1 ml) (en Jeringa de 20 ml)",
+    "tiempoInfusion": "Bolo",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "TRANEXÁMICO ÁCIDO",
+    "nombreComercial": "Amchafibrin®",
+    "ph": "6,6-7",
+    "osmolaridad": "316 mOsm/l",
+    "reconstituirDiluir": "SSF 0,9%",
+    "protocoloHSO": "1 g (2 amp)+ 50 ml de SSF 0,9%. P.C: 5 g (10 amp)(100 mg/1 ml) (en Jeringa de 50 ml).",
+    "tiempoInfusion": "10-20 min. PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "URAPIDILO",
+    "nombreComercial": "Elgadil®",
+    "ph": "6,1",
+    "osmolaridad": "1629 mOsm/l",
+    "reconstituirDiluir": "Preferible en Dx 5%",
+    "protocoloHSO": "(bolo/puro)(50 mg/10 ml=5 mg/ 1 ml) a criterio médico.P.C: 200 mg (4 amp)+ 10 ml Dx 5% (en Jeringa de 50 ml).",
+    "tiempoInfusion": "Bolo / PC-BI",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": null,
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "VASOPRESINA",
+    "nombreComercial": "Argipresina®",
+    "nombreComercial2": "Empressin®",
+    "ph": "2,5-4,5",
+    "osmolaridad": null,
+    "reconstituirDiluir": "Siempre diluido en SSF 0,9%",
+    "protocoloHSO": "P.C: 2 ml (1 amp / 40 UI)+ 48 ml SSF 0,9% (0,8 UI/1 ml) (en Jeringa de 50 ml).",
+    "tiempoInfusion": "PC-BI",
+    "viaAdministracion": "CVC",
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": "conservar en frio (2-8°C)",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": false
+    }
+  },
+  {
+    "nombreGenerico": "PROTROMBINA HUMANA",
+    "nombreComercial": "Beriplex®",
+    "nombreComercial2": "Empressin®",
+    "ph": null,
+    "osmolaridad": null,
+    "reconstituirDiluir": "Excepto reconstitución con API (20 ml) NO DILUIR",
+    "protocoloHSO": "Solución reconstituida de PROTROMBINA HUMANA (en Jeringa de 20 ml)",
+    "tiempoInfusion": "5 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "FIBRINÓGENO",
+    "nombreComercial": "Fibryga®",
+    "ph": null,
+    "osmolaridad": null,
+    "reconstituirDiluir": "1º Reconstituir disolvente que acompaña (50 ml API).Diluir SSF 0,9% o Dx 5%",
+    "protocoloHSO": "Solución reconstituida de FIBRINÓGENO (en Jeringa de 50 ml)",
+    "tiempoInfusion": "5 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": "24 h",
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  },
+  {
+    "nombreGenerico": "ALBÚMINA HUMANA 20%",
+    "nombreComercial": null,
+    "ph": null,
+    "osmolaridad": null,
+    "reconstituirDiluir": "Directa sin diluir o en SSF 0,9%",
+    "protocoloHSO": "Solución precargada",
+    "tiempoInfusion": "5-10 min.",
+    "viaAdministracion": null,
+    "estabilidad": {
+      "usoInmediato": true,
+      "estabilidad": null,
+      "temperatura": "< 25°C",
+      "protegerDeLaLuz": false,
+      "conservarEnvase": true
+    }
+  }
+]
+
+    
