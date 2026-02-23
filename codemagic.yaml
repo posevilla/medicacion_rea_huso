@@ -7,6 +7,17 @@ workflows:
       cocoapods: default
 
     scripts:
+      - name: Load App Store Connect credentials
+        script: |
+          keychain initialize
+          app-store-connect fetch-signing-files \
+            --api-key-id "$APP_STORE_KEY_ID" \
+            --api-issuer-id "$APP_STORE_ISSUER_ID" \
+            --api-key "$APP_STORE_API_KEY" \
+            --type IOS_APP_STORE \
+            --bundle-id "com.posevilla.medicacion"
+          keychain add-certificates
+
       - name: Generate build number
         script: |
           BUILD_NUMBER=$(date +%s)
