@@ -26,7 +26,7 @@ workflows:
 
       - name: Build iOS (signed IPA)
         script: |
-          flutter build ipa --release
+          flutter build ipa --release --export-options-plist=ExportOptions.plist
 
     artifacts:
       - build/ios/ipa/*.ipa
