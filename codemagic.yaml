@@ -18,9 +18,9 @@ workflows:
       - name: Flutter pub get
         script: flutter pub get
 
-      - name: Build iOS
+      - name: Build iOS (signed IPA)
         script: |
-          flutter build ipa --release --no-codesign
+          flutter build ipa --release
 
     artifacts:
       - build/ios/ipa/*.ipa
@@ -31,4 +31,3 @@ workflows:
         key_id: $APP_STORE_KEY_ID
         issuer_id: $APP_STORE_ISSUER_ID
         submit_to_testflight: true
-
