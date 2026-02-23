@@ -24,9 +24,15 @@ workflows:
           echo "BUILD_NUMBER=$BUILD_NUMBER" >> $CM_ENV
           echo "Build number generado: $BUILD_NUMBER"
 
-      - name: Set automatic build number
+      - name: Update iOS CFBundleVersion
         script: |
-          echo "Usando build number: $BUILD_NUMBER"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUILD_NUMBER" ios/Runner/Info.plist
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString 1.0.1" ios/Runner/Info.plist
+          echo "Info.plist actualizado:"
+          /usr/libexec/PlistBuddy -c "Print" ios/Runner/Info.plist
+
+      - name: Set automatic build number in pubspec
+        script: |
           sed -i.bak "s/version: .*/version: 1.0.1+$BUILD_NUMBER/" pubspec.yaml
           cat pubspec.yaml
 
