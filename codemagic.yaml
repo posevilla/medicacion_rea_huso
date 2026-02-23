@@ -6,9 +6,15 @@ workflows:
       xcode: latest
 
     scripts:
+      - name: Generate build number
+        script: |
+          BUILD_NUMBER=$(date +%s)
+          echo "BUILD_NUMBER=$BUILD_NUMBER" >> $CM_ENV
+          echo "Build number generado: $BUILD_NUMBER"
+
       - name: Set automatic build number
         script: |
-          echo "Usando build number de Codemagic: $BUILD_NUMBER"
+          echo "Usando build number: $BUILD_NUMBER"
           sed -i.bak "s/version: .*/version: 1.0.1+$BUILD_NUMBER/" pubspec.yaml
           cat pubspec.yaml
 
