@@ -52,7 +52,11 @@ workflows:
 
       - name: Build iOS (signed IPA)
         script: |
-          flutter build ipa --release --export-options-plist=ExportOptions.plist
+          flutter build ipa \
+            --release \
+            --build-number=$BUILD_NUMBER \
+            --build-name=1.0.1 \
+            --export-options-plist=ExportOptions.plist
 
     artifacts:
       - build/ios/ipa/*.ipa
